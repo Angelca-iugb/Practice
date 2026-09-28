@@ -1,0 +1,884 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "71fc7e8c-9efc-4cf7-8931-718a28f6f057",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Angelca\n"
+     ]
+    }
+   ],
+   "source": [
+    "name='Angelca'\n",
+    "print(name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "590f00eb-0399-4460-8d3c-de758e83dbd9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "12\n"
+     ]
+    }
+   ],
+   "source": [
+    "num1=4\n",
+    "num2=8\n",
+    "print(num1+num2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "a0034f35-cd09-4ed8-aac9-0f341a2b0a57",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'bool'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "is_raining=True\n",
+    "print(type(is_raining))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "b167038d-a18f-4e37-a422-7940d441bcd5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter your favorite number: 21\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "21\n"
+     ]
+    }
+   ],
+   "source": [
+    "number=input('Enter your favorite number:')\n",
+    "print(number)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "1b204171-38a6-4f9e-98f7-f3a6c985592d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "100\n",
+      "<class 'int'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=100\n",
+    "print(int(a))\n",
+    "print(type(a))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "6c42cf0b-445a-41bb-9974-c42f409c55a8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "9\n"
+     ]
+    }
+   ],
+   "source": [
+    "price= 9.99\n",
+    "print(int(price))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "f9a167f5-399a-4746-912f-0ce836ed5fe1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      " I will succed this course with A by the Grace of God. I belive it ,I claim it\n"
+     ]
+    }
+   ],
+   "source": [
+    "message=(' I will succed this course with A by the Grace of God. I belive it ,I claim it' )\n",
+    "print( message )"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "ca6f40a6-fbd2-40cf-ba80-e4df283bb33c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello hello hello hello hello \n"
+     ]
+    }
+   ],
+   "source": [
+    "print( 'hello '* 5)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "dab59e4c-eea7-4f5f-a752-49907ea1b191",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "my score is 95\n"
+     ]
+    }
+   ],
+   "source": [
+    "score= 95\n",
+    "message='my score is ' + str(score)\n",
+    "print(message)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "d8722a68-0f2a-41d4-8e1d-040bff4b6bf8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "apple in the list\n"
+     ]
+    }
+   ],
+   "source": [
+    "str='Ihave an apple and a banana'\n",
+    "i='apple'\n",
+    "for i in str :\n",
+    "    print( 'apple in the list')\n",
+    "    break"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "1446dd11-9f11-4ed8-89bd-e61720d76a49",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "78.5\n"
+     ]
+    }
+   ],
+   "source": [
+    "#Operetors#\n",
+    "r=5\n",
+    "pi= 3.14\n",
+    "area=pi*r**2\n",
+    "print(area)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "cfcd761d-01a9-499e-a6f7-9119fe540d50",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "number is not an even number\n"
+     ]
+    }
+   ],
+   "source": [
+    "number=17\n",
+    "check= 17%2\n",
+    "if check==0:\n",
+    "     print ('17 is an even number')\n",
+    "else: \n",
+    "    print('number is not an even number')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "13519a90-91d8-4d5a-a47f-7b7c7a6a9751",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "15\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=5\n",
+    "x+=10\n",
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "50a2af3f-e336-4d00-a0dd-2d54bd45e7f1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "False\n",
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "number1=10\n",
+    "number2= 21\n",
+    "print(number1>number2)\n",
+    "print(number1<=number2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "3e6680cc-7d52-472e-a66f-fc4df2f9e4fd",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "the person is an infant\n"
+     ]
+    }
+   ],
+   "source": [
+    "age=10\n",
+    "if age>13 and age<19:\n",
+    "    print('the person is a teenager')\n",
+    "elif age<13:\n",
+    "    print('the person is an infant')\n",
+    "else:\n",
+    "    print(' the person is an adulte')"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "5c3bd28d-e288-444f-bf47-df7212845d4c",
+   "metadata": {},
+   "source": [
+    "char="
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "3f08e258-fb4b-4658-af24-4557f25d4b72",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "False\n"
+     ]
+    }
+   ],
+   "source": [
+    "is_logged_in=True\n",
+    "is_logged_in=not is_logged_in\n",
+    "print(is_logged_in)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "id": "dcb8bbab-dc54-4d2e-84d4-c0397d31d8fe",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "False\n"
+     ]
+    }
+   ],
+   "source": [
+    "L1=[1,2,3]\n",
+    "L2=[1,2,3]\n",
+    "print(L1 is L2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "28f114e0-0058-41fa-b2fa-abfd3cf115ed",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "l=[1,2,3,4,5]\n",
+    "print(5 in l)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "id": "a2bf391a-7fc6-4eec-bb3e-230b9e0c4976",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "value= None \n",
+    "print(value is None)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "5e606d68-c861-4912-8518-6c5bea607ed2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "positive\n"
+     ]
+    }
+   ],
+   "source": [
+    "#Control flow#\n",
+    "number=21\n",
+    "if number>0:\n",
+    "    print('positive')\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "5033eaa4-fd88-4b40-9f72-f181e22f52d6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "odd\n"
+     ]
+    }
+   ],
+   "source": [
+    "number= 95\n",
+    "if number%2==0:\n",
+    "    print('even')\n",
+    "else:\n",
+    "    print ('odd')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "2097fae4-df18-40c7-8773-9cfef97a6d73",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "A\n"
+     ]
+    }
+   ],
+   "source": [
+    "number=100\n",
+    "if number<=50:\n",
+    "    print ('F')\n",
+    "elif number>50 and  number<=69:\n",
+    "    print ('C')\n",
+    "elif number>69 and number<=89:\n",
+    "    print ('B')\n",
+    "else: \n",
+    "    print ('A')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "8d8ba71c-20bc-471e-a7f1-2eb9a6894bcb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "apple\n",
+      "banana\n",
+      "cherry\n"
+     ]
+    }
+   ],
+   "source": [
+    "l=['apple','banana','cherry']\n",
+    "for fruit in l:\n",
+    "    print(fruit)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "1a31d756-e27b-443f-af51-521a43c896d0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "55\n"
+     ]
+    }
+   ],
+   "source": [
+    "S=0\n",
+    "for i in range(1,11):\n",
+    "    S= S+i\n",
+    "print(S)\n",
+    " \n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "fb271430-2570-4e43-8120-bad3c2445e69",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "23cfc3d5-c4c6-4be2-b31a-1eed61c66081",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5\n",
+      "4\n",
+      "3\n",
+      "2\n",
+      "1\n"
+     ]
+    }
+   ],
+   "source": [
+    "number=5\n",
+    "while number>=1:\n",
+    "    print(number)\n",
+    "    number-=1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "f598073d-23a7-4427-8a4f-bffcb9e18133",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter a word name\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "you entered name\n"
+     ]
+    },
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter a word ange\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "you entered ange\n"
+     ]
+    },
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter a word city\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "you entered city\n"
+     ]
+    },
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter a word GPA 4\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "you entered GPA 4\n"
+     ]
+    },
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter a word stop\n"
+     ]
+    }
+   ],
+   "source": [
+    "word=input('enter a word')\n",
+    "while word!= 'stop':\n",
+    "    print('you entered', word)\n",
+    "    word=input('enter a word')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "a3d55eab-e290-4e4d-ba9e-73694d5201d0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "# # # # \n",
+      "# # # # \n",
+      "# # # # \n",
+      "# # # # \n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(4):\n",
+    " for j in range(4):\n",
+    "        print('#', end=' ')\n",
+    " print()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "48e02c42-b09f-463a-8b20-e6ae502f45a9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0\n",
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(10):\n",
+    "    if i ==5:\n",
+    "     break\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "b70a9075-9b62-4548-ba20-c566fbd4ec56",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0\n",
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "6\n",
+      "7\n",
+      "8\n",
+      "9\n"
+     ]
+    }
+   ],
+   "source": [
+    "for i in range(10):\n",
+    "    if i==5:\n",
+    "    \n",
+    "         continue\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "d5491c2e-56af-4a28-91a8-dab26e792fcc",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello there!\n"
+     ]
+    }
+   ],
+   "source": [
+    "#Function#\n",
+    "def greet():\n",
+    "    print('hello', 'there!')\n",
+    "greet()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "5f365aed-f735-4133-9253-52f62373d776",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "36\n"
+     ]
+    }
+   ],
+   "source": [
+    "def mult(a,b):\n",
+    "    print(a*b)\n",
+    "mult(4,9)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "id": "09212580-c7ef-4ef0-beda-e671d3ab24c7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "My pet is bubby and it is a dog.\n",
+      "My pet is mimi and it is a cat.\n"
+     ]
+    }
+   ],
+   "source": [
+    "def describe_pet(pet_name,animal_type='dog'):\n",
+    "    print(f'My pet is {pet_name} and it is a {animal_type}.')\n",
+    "describe_pet('bubby')\n",
+    "describe_pet('mimi','cat')\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "277de8f5-2235-4ce2-8c14-93f6de71de32",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1425\n"
+     ]
+    }
+   ],
+   "source": [
+    "def get_max(number):\n",
+    "    number=[145,16,1,1425,545]\n",
+    "print(max(number))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "1e506e8e-0288-442b-9aa2-483bebe91a5b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "19\n"
+     ]
+    }
+   ],
+   "source": [
+    "def my_function():\n",
+    "    x = 19\n",
+    "    \n",
+    "    print(x)\n",
+    "    \n",
+    "my_function()\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "id": "4e66638c-d1ac-4ba6-8587-d948c6785c72",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Abidjan\n"
+     ]
+    }
+   ],
+   "source": [
+    "city='Abidjan'\n",
+    "def say_city():\n",
+    "    print(city)\n",
+    "say_city()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "03189362-cae6-4c37-b8b2-b659c07ddf2b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "49\n"
+     ]
+    }
+   ],
+   "source": [
+    "square= lambda number: number**2\n",
+    "print(square(7))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "dab4cee5-19c2-447c-b438-0689f436b4d5",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.14.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
+
